@@ -27,6 +27,10 @@ public class Program {
         public void setBrojIndeksa(int index) {
             brojIndeksa = index;
         }
+        public String toString() {
+            String s = this.prezime + " " + this.ime + "(" + this.brojIndeksa + ")";
+            return s;
+        }
         private void ispisi() {
             System.out.println(getPrezime() + " " + getIme() + "(" + getBrojIndeksa() + ")");
         }
@@ -76,7 +80,7 @@ public class Program {
         }
         private void ispisi() {
             for(int i = 0; i < getMaxBrojStudenata(); i++)
-                if(studenti[i] != null) System.out.println(i + 1 + "." + studenti[i].getPrezime() + " " +  studenti[i].getIme() + "(" + studenti[i].getBrojIndeksa() + ")");
+                if(studenti[i] != null)  System.out.println(studenti[i]);//System.out.println(i + 1 + "." + studenti[i].getPrezime() + " " +  studenti[i].getIme() + "(" + studenti[i].getBrojIndeksa() + ")");
         }
     }
         public static void main(String[] args) {
