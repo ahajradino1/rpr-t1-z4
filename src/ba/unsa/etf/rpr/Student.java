@@ -27,7 +27,7 @@ public class Student {
         brojIndeksa = index;
     }
     public String toString() {
-        String s = this.prezime + " " + this.ime + "(" + this.brojIndeksa + ")";
+        String s = this.prezime + " " + this.ime + " (" + this.brojIndeksa + ")";
         return s;
     }
     private void ispisi() {

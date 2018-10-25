@@ -9,6 +9,5 @@ public class Program {
             p.upisi(s1);
             p.ispisi(s1);
             p.ispisi();
-
         }
 }
