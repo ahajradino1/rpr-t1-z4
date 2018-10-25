@@ -1,5 +1,7 @@
-package ba.unsa.etf.rpr;
+package ba.unsa.etf.rpr.t1;
 
+import ba.unsa.etf.rpr.t1.Predmet;
+import ba.unsa.etf.rpr.t1.Student;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

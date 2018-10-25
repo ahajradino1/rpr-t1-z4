@@ -1,4 +1,4 @@
-package ba.unsa.etf.rpr;
+package ba.unsa.etf.rpr.t1;
 
 public class Predmet {
     private Student[] studenti;

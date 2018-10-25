@@ -1,4 +1,4 @@
-package ba.unsa.etf.rpr;
+package ba.unsa.etf.rpr.t1;
 
 public class Program {
         public static void main(String[] args) {
